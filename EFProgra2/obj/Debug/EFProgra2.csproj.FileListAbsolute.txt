@@ -1,0 +1,27 @@
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\bin\Debug\EFProgra2.exe.config
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\bin\Debug\EFProgra2.exe
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\bin\Debug\EFProgra2.pdb
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Properties.Resources.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.csproj.GenerateResource.Cache
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.exe
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.pdb
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Menu.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.AddStudent.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.AddSubject.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.AddTeacher.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Student.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Subject.resources
+c:\users\programacion\documents\visual studio 2013\Projects\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Teacher.resources
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\bin\Debug\EFProgra2.exe.config
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.exe
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.pdb
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\bin\Debug\EFProgra2.exe
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\bin\Debug\EFProgra2.pdb
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.csprojResolveAssemblyReference.cache
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Menu.resources
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Properties.Resources.resources
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Student.resources
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Subject.resources
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Teacher.resources
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.csproj.GenerateResource.Cache
+C:\Users\juan__000\Desktop\EFProgra2\EFProgra2\obj\Debug\EFProgra2.Estadisticas.resources
