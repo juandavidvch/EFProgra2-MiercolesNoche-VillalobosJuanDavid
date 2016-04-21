@@ -78,5 +78,13 @@ namespace EFProgra2
             controlmateria.lectura();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = controlmateria.buscar(Convert.ToInt32(txtIDMateria.Text));
+            txtNombre.Text = dt.Rows[0][0].ToString();
+            comboProfesor.Text = dt.Rows[0][1].ToString();
+        }
+
     }
 }

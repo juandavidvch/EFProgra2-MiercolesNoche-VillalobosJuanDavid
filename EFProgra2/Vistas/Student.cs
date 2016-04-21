@@ -40,7 +40,7 @@ namespace EFProgra2
         private void button4_Click(object sender, EventArgs e)
         {
             //delete
-            controlestudiante.eliminar(Convert.ToInt16(txtIDEstudiante.Text));
+            controlestudiante.eliminar(Convert.ToInt32(txtIDEstudiante.Text));
             cargarGrid();
             cleanFields();
         }
@@ -67,7 +67,7 @@ namespace EFProgra2
 
         private void cargar()
         {
-            entestudiante.Estudiante = Convert.ToInt16(txtIDEstudiante.Text);
+            entestudiante.Estudiante = Convert.ToInt32(txtIDEstudiante.Text);
             entestudiante.Nombre = txtNombre.Text;
             entestudiante.Apellido = txtApellido.Text;
             entestudiante.Direccion = txtDireccion.Text;
@@ -80,6 +80,17 @@ namespace EFProgra2
         {
             //actualizar
             controlestudiante.lectura();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = controlestudiante.buscar(Convert.ToInt32(txtIDEstudiante.Text));
+            txtNombre.Text = dt.Rows[0][0].ToString();
+            txtApellido.Text = dt.Rows[0][1].ToString();
+            txtDireccion.Text = dt.Rows[0][2].ToString();
+            txtEdad.Text = dt.Rows[0][3].ToString();
+            combo_Curso.Text = dt.Rows[0][4].ToString();
         }
     }
 }

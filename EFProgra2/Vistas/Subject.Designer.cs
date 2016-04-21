@@ -35,6 +35,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboProfesor = new System.Windows.Forms.ComboBox();
+            this.profesorBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.bd_colegioDataSet = new EFProgra2.bd_colegioDataSet();
             this.profesorBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtIDMateria = new System.Windows.Forms.TextBox();
@@ -45,17 +47,16 @@
             this.profesorBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.profesorBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.materiaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bd_colegioDataSet = new EFProgra2.bd_colegioDataSet();
-            this.profesorBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
             this.profesorTableAdapter = new EFProgra2.bd_colegioDataSetTableAdapters.profesorTableAdapter();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bd_colegioDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.materiaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bd_colegioDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource4)).BeginInit();
             this.SuspendLayout();
             // 
             // button4
@@ -120,6 +121,16 @@
             this.comboProfesor.TabIndex = 31;
             this.comboProfesor.ValueMember = "id_profesor";
             // 
+            // profesorBindingSource4
+            // 
+            this.profesorBindingSource4.DataMember = "profesor";
+            this.profesorBindingSource4.DataSource = this.bd_colegioDataSet;
+            // 
+            // bd_colegioDataSet
+            // 
+            this.bd_colegioDataSet.DataSetName = "bd_colegioDataSet";
+            this.bd_colegioDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(460, 52);
@@ -161,25 +172,29 @@
             this.label1.TabIndex = 26;
             this.label1.Text = "ID Materia";
             // 
-            // bd_colegioDataSet
-            // 
-            this.bd_colegioDataSet.DataSetName = "bd_colegioDataSet";
-            this.bd_colegioDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // profesorBindingSource4
-            // 
-            this.profesorBindingSource4.DataMember = "profesor";
-            this.profesorBindingSource4.DataSource = this.bd_colegioDataSet;
-            // 
             // profesorTableAdapter
             // 
             this.profesorTableAdapter.ClearBeforeFill = true;
+            // 
+            // button6
+            // 
+            this.button6.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button6.Location = new System.Drawing.Point(580, 17);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(56, 31);
+            this.button6.TabIndex = 32;
+            this.button6.Text = "Buscar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Subject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 240);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.comboProfesor);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtIDMateria);
@@ -195,13 +210,13 @@
             this.Text = "Subject";
             this.Load += new System.EventHandler(this.Subject_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bd_colegioDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.materiaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bd_colegioDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,5 +243,6 @@
         private bd_colegioDataSet bd_colegioDataSet;
         private System.Windows.Forms.BindingSource profesorBindingSource4;
         private bd_colegioDataSetTableAdapters.profesorTableAdapter profesorTableAdapter;
+        private System.Windows.Forms.Button button6;
     }
 }

@@ -70,6 +70,14 @@ namespace EFProgra2
             cargarGrid();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = controlprofesor.buscar(Convert.ToInt32(txtIDProfesor.Text));
+            txtNombre.Text = dt.Rows[0][0].ToString();
+            txtApellido.Text = dt.Rows[0][1].ToString();
+        }
+
 
 
 

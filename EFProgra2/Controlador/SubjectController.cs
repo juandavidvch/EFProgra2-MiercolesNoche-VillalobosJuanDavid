@@ -19,6 +19,18 @@ namespace EFProgra2
             return mode.llenar(sql);
         }
 
+        public DataTable buscar(int id)
+        {
+            sql = "SELECT "
+                + "NOMBRE,"
+                + "ID_PROFESOR"
+                + " FROM "
+                + "MATERIA"
+                + " WHERE "
+                + "ID_MATERIA = " + id;
+            return mode.llenar(sql);
+        }
+
         public void insertar(SubjectEntity entMateria)
         {
             sql = "INSERT INTO MATERIA ("
